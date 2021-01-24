@@ -1,0 +1,72 @@
+.container {
+  background-color: rgb(56, 55, 55);
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+}
+
+.upperDiv {
+  width: 100%;
+}
+
+.lowerDiv {
+  width: 100%;
+}
+
+.winningNumber {
+  /* border-radius: 50%;
+  background-color: #fff;
+  height: 200px;
+  width: 200px; */
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(
+    #51eb0a 0%,
+    #16b92c 10%,
+    #16a811bd 50%,
+    #0c421e 100%
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.winningNumber h2 {
+  /* font-weight: 400; */
+  font-size: 7em !important;
+  text-align: center !important;
+  color: rgb(43, 42, 42);
+}
+
+.winningNumber::before {
+  border-radius: 50%;
+  filter: blur(18px);
+}
+
+.container p {
+  color: #fff;
+}
+
+nav {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #313131;
+}
+
+nav img {
+  height: 150px;
+}
+
+.raffleText {
+  color: #fff;
+  padding-top: 75px;
+}
